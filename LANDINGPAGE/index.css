@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 500px;
+}
+
+.tit {
+    position: relative;
+    top: 500px;
+}
+
+* {
+    background: linear-gradient(90deg, rgb(191, 7, 123), orange);
+    color: white;
+}
