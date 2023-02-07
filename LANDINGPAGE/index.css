@@ -1,8 +1,46 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap');
+
+*{
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, rgb(191, 7, 123), orange);
-    color: white;
-    font-family: Andale Mono, monospace;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgb(255, 255, 0), rgb(255, 0, 153) );
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 200px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+.tit {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+}
+
+.tit-img {
+    height: 200px;
+    width: 200px;
+}
