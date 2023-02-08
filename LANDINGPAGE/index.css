@@ -21,6 +21,7 @@ body {
     backdrop-filter: blur(45px);
 }
 
+
 .cabecalho-menu {
     display: flex;
     gap: 200px;
